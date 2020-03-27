@@ -1,6 +1,6 @@
 {
-  "name": "react-native-af-video-player",
-  "version": "0.2.1",
+  "name": "evargas-edify/react-native-af-video-player",
+  "version": "0.2.2",
   "dependencies": {
     "react-native-keep-awake": "^2.0.6",
     "react-native-linear-gradient": "^2.3.0",
@@ -18,7 +18,7 @@
     "react-test-renderer": "16.0.0-beta.5"
   },
   "description": "A customisable React Native video player for Android and IOS",
-  "homepage": "https://github.com/abbasfreestyle/react-native-af-video-player#readme",
+  "homepage": "https://github.com/evargas-edify/react-native-af-video-player#readme",
   "keywords": [
     "react-component",
     "react-native",
