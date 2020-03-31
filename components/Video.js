@@ -169,6 +169,8 @@ class Video extends Component {
       this.setState({ progress: percent, seeking: false }, () => {
         this.player.seek(seconds)
       })
+    } else {
+      this.setState({ seeking: false })
     }
   }
 
@@ -291,6 +293,8 @@ class Video extends Component {
 
     if (isForwardSeek && !disableForwardSeek || !isForwardSeek){
       this.setState({ seeking: true, currentTime })
+    } else {
+      this.setState({ seeking: true })
     }
   }
 
